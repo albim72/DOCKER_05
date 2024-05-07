@@ -19,3 +19,8 @@ docker build -t sigmoid-app .
 
 uruchomienie kontenera:
 docker container run --interactive --tty sigmoid-app
+
+aplikacja www flask:
+docker build -t flask-app .
+
+uruchomienie: docker run -p 5000:5000 flask-app
