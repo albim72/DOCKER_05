@@ -10,3 +10,4 @@ komenda 9  - ustawienie nowego celu (adresu url): docker container run --env TAR
 komenda 10 - wejście do katalogu z docckerfile: cd C:\diamol\ch03\exercises\web-ping
 komenda 11 - utworzenie nowego obrazu: docker image build --tag web-ping .
 komenda 12 - uruchomienie konetera z zadaniem nowych zmiennych środowiskowych:  docker container run -e TARGET=docker.com -e INTERVAL=5000 web-ping
+komenda 13 - wyświetlenie historii obrazów: docker image history web-ping
