@@ -24,3 +24,14 @@ aplikacja www flask:
 docker build -t flask-app .
 
 uruchomienie: docker run -p 5000:5000 flask-app
+Docker-Compose:
+
+1. docker network create nat
+2. docker-compose up
+3. cd .ch07/excercises/image_of_the_day
+4. docker-compose up --detach
+5. docker-compose up -d --scale iotd=3
+6. docker-compose logs ==tail=1 iotd
+7.docker-compose stop
+8,docker-compose start
+9,docker container ls
