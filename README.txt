@@ -13,3 +13,9 @@ komenda 12 - uruchomienie konetera z zadaniem nowych zmiennych środowiskowych: 
 komenda 13 - wyświetlenie historii obrazów: docker image history web-ping
 komenda 14 - zestawienie obrazów i ich rozmiarów: docker image ls
 komenda 15 - badanie rozmiaru elementów dockera: docker system df
+Zadanie Python 
+utowrzenie obrazu: 
+docker build -t sigmoid-app .
+
+uruchomienie kontenera:
+docker container run --interactive --tty sigmoid-app
