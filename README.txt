@@ -5,3 +5,5 @@ komenda 4 - uruchomienie kontenera ze serwerem apache i stroną www: docker cont
 komenda 5 - pobranie obrazu dockera - docker image pull diamol/ch03-web-ping
 komenda 6 - uruchomienia kontenra ping: docker container run -d --name web-ping diamol/ch03-web-ping
 komenda 7 - wyświetlenie logów - efektów pracy kontenera ping
+komenda 8 - zastopowanie pracy kontenera: docker rm - f web-ping
+komenda 9  - ustawienie nowego celu (adresu url): docker container run --env TARGET=google.com diamol/ch03-web-ping
