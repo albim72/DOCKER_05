@@ -12,4 +12,8 @@ Komenda 9 -> wykonanie kontenera na podstawie obrazu: docker image pull diamol/c
 Komenda 10 -> uruchomienie aplikacji w kontenerze działającym w tle: docker container run -d --name web-ping diamol/ch03-web-ping
 Komenda 11 -> usunięcie kontenera: docker rm -f web-ping
 Komenda 12 -> uruchomienie kontenera z przekazaniem zmiennej środowiskowej: docker container run --env TARGET=google.com diamol/ch03-web-ping
+Komenda 13 -> utworzenie własnego obrazu z zadaną nazwą, wejdż do katlogu z aplikacją: cd diamol\ch03\exercises\web-ping
+              utwórz obraz: docker image build --tag web-ping .
+Komenda 14 -> wyświetlenie aktywnych obrazów: docker image ls w*
+Komenda 15 -> uruchomienie obrazu z dwoma zmiennymi środowiskowymi: docker container run -e TARGET=docker.com -e INTERVAL=5000 web-ping
 
