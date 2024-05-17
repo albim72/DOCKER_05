@@ -16,4 +16,6 @@ Komenda 13 -> utworzenie własnego obrazu z zadaną nazwą, wejdż do katlogu z 
               utwórz obraz: docker image build --tag web-ping .
 Komenda 14 -> wyświetlenie aktywnych obrazów: docker image ls w*
 Komenda 15 -> uruchomienie obrazu z dwoma zmiennymi środowiskowymi: docker container run -e TARGET=docker.com -e INTERVAL=5000 web-ping
+Komenda 16 -> historia obrazu: docker history web-ping
+Komenda 17 -> analiza zawartści lokalnej instancji dockera: docker system df
 
