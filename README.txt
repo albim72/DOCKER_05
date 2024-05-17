@@ -9,3 +9,7 @@ Komenda 6 -> uruchomienie aplikacji webowej w tle: docker container run --detach
 Komenda 7 -> statystyki obciążenia procesora, sieci, pamięci ect: docker container stats
 Komenda 8 -> pobranie obrazu kontenera: docker image pull diamol/ch03-web-ping
 Komenda 9 -> wykonanie kontenera na podstawie obrazu: docker image pull diamol/ch03-web-ping
+Komenda 10 -> uruchomienie aplikacji w kontenerze działającym w tle: docker container run -d --name web-ping diamol/ch03-web-ping
+Komenda 11 -> usunięcie kontenera: docker rm -f web-ping
+Komenda 12 -> uruchomienie kontenera z przekazaniem zmiennej środowiskowej: docker container run --env TARGET=google.com diamol/ch03-web-ping
+
