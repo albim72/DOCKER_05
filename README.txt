@@ -25,3 +25,8 @@ Zadanie Python:
 2. budowa kontenera: docker build -t sigmoid-python
 3. uruchomienie obrazu kontenera: docker container run --interactive --tty sigmoid-python
 
+Docker-compose:
+1. Stowrzenie sieci docker: docker network create nat
+2. Wejście do katalogu projektu...
+3. Uruchomie wielokontenerowej aplikacji: docker-compose up
+- pobieranie danych z użyciem pliku docker-compose
