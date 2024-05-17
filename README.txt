@@ -7,3 +7,5 @@ Komenda 4 -> podgląd informacji o działających kontenerach: docker container 
 Komenda 5 -> podgląd listy procesów na wybranym kontenerze: docker container top e1039436d6c1
 Komenda 6 -> uruchomienie aplikacji webowej w tle: docker container run --detach --publish 8088:80 diamol/ch02-hello-diamol-web
 Komenda 7 -> statystyki obciążenia procesora, sieci, pamięci ect: docker container stats
+Komenda 8 -> pobranie obrazu kontenera: docker image pull diamol/ch03-web-ping
+Komenda 9 -> wykonanie kontenera na podstawie obrazu: docker image pull diamol/ch03-web-ping
