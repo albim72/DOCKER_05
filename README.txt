@@ -19,3 +19,9 @@ Komenda 15 -> uruchomienie obrazu z dwoma zmiennymi środowiskowymi: docker cont
 Komenda 16 -> historia obrazu: docker history web-ping
 Komenda 17 -> analiza zawartści lokalnej instancji dockera: docker system df
 
+Zadanie Python:
+
+1. wejście do katalogu projektu: cd python_sigmoid
+2. budowa kontenera: docker build -t sigmoid-python
+3. uruchomienie obrazu kontenera: docker container run --interactive --tty sigmoid-python
+
